@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Deze opdracht werken jullie uit per 4. Iedereen doet 1 van de volgende opdrachten:",
   "main": "index.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/EHB-MCT/request-to-pull-dreamteam#readme",
   "dependencies": {
-    "socket.io": "^4.3.0"
-  }
+    "socket.io": "^4.3.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  },
+  "type": "module",
 }
