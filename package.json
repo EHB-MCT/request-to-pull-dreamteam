@@ -1,11 +1,26 @@
 {
+  "name": "request-to-pull-dreamteam",
+  "version": "1.0.0",
+  "description": "Deze opdracht werken jullie uit per 4. Iedereen doet 1 van de volgende opdrachten:",
+  "main": "index.js",
+
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EHB-MCT/request-to-pull-dreamteam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EHB-MCT/request-to-pull-dreamteam/issues"
+  },
+  "homepage": "https://github.com/EHB-MCT/request-to-pull-dreamteam#readme",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.13",
     "socket.io": "^4.3.0"
   },
-  "type": "module",
-  "scripts": {
-    "start": "nodemon app.js"
-  }
+  "type": "module"
 }

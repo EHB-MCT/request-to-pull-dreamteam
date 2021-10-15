@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.message {
+    background-color: rgb(184, 184, 184);
+    padding: 15px;
+    margin: 15px;
+}
+
+#messages {
+    height: 90%;
+    overflow-y: scroll;
+}
+
+form input {
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 60%;
+    display: inline-block;
+}
+
+form button {
+    width: 30%;
+    display: inline-block;
+}
